@@ -15,6 +15,7 @@ jobs:
           user: StrikerRUS
           commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
           config_timezone: Europe/Moscow
+          plugins_errors_fatal: yes
           template: classic
           repositories: 1000
           repositories_batch: 3
