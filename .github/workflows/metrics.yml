@@ -38,7 +38,7 @@ jobs:
           plugin_languages_skipped: BayesWitnesses/m2cgen
           plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout: 30
           plugin_languages_categories: programming
 
           plugin_notable: yes
