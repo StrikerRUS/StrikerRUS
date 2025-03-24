@@ -40,6 +40,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
           plugin_languages_categories: programming
+          plugin_languages_recent_days: 365
 
           # plugin_notable: yes
           # plugin_notable_from: organization
