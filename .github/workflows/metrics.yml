@@ -41,10 +41,10 @@ jobs:
           # plugin_languages_analysis_timeout: 30
           # plugin_languages_categories: programming
 
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_repositories: no
-          plugin_notable_types: commit, pull_request, issue
+          # plugin_notable: yes
+          # plugin_notable_from: organization
+          # plugin_notable_repositories: no
+          # plugin_notable_types: commit, pull_request, issue
 
           plugin_followup: yes
           plugin_followup_sections: user
