@@ -50,10 +50,10 @@ jobs:
           # plugin_followup_sections: user
           # plugin_followup_indepth: yes
 
-          # plugin_reactions: yes
-          # plugin_reactions_limit: 1000
-          # plugin_reactions_limit_issues: 1000
-          # plugin_reactions_display: absolute
-          # plugin_reactions_details: count
+          plugin_reactions: yes
+          plugin_reactions_limit: 1000
+          plugin_reactions_limit_issues: 1000
+          plugin_reactions_display: absolute
+          plugin_reactions_details: count
 
           plugin_stargazers: yes
