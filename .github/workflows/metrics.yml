@@ -58,3 +58,4 @@ jobs:
           plugin_reactions_details: count
 
           plugin_stargazers: yes
+          plugin_stargazers_days: 30
