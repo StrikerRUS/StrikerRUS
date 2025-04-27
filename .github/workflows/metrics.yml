@@ -49,11 +49,11 @@ jobs:
 
           base: ""
 
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
           filename: isocalendar.svg
           config_output: svg
-
-          # plugin_isocalendar: yes
-          # plugin_isocalendar_duration: full-year
 
           # plugin_habits: yes
           # plugin_habits_from: 1000
