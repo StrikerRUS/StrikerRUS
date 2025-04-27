@@ -44,7 +44,6 @@ jobs:
           repositories: 1000
           repositories_batch: 3
           repositories_affiliations: owner, collaborator, organization_member
-          config_order: base.header, base.activity+community
           # habits, languages, notable, followup, reactions, stargazers
 
           base: ""
