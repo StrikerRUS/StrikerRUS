@@ -36,7 +36,7 @@ jobs:
 
           plugin_languages: yes
           plugin_languages_skipped: BayesWitnesses/m2cgen
-          plugin_languages_details: percentage, lines
+          # plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
           plugin_languages_categories: programming
@@ -47,15 +47,15 @@ jobs:
           # plugin_notable_repositories: no
           # plugin_notable_types: commit, pull_request, issue
 
-          plugin_followup: yes
-          plugin_followup_sections: user
-          plugin_followup_indepth: yes
+          # plugin_followup: yes
+          # plugin_followup_sections: user
+          # plugin_followup_indepth: yes
 
-          plugin_reactions: yes
-          plugin_reactions_limit: 500
-          plugin_reactions_limit_issues: 500
-          plugin_reactions_display: absolute
-          plugin_reactions_details: count
+          # plugin_reactions: yes
+          # plugin_reactions_limit: 500
+          # plugin_reactions_limit_issues: 500
+          # plugin_reactions_display: absolute
+          # plugin_reactions_details: count
 
-          plugin_stargazers: yes
-          plugin_stargazers_days: 30
+          # plugin_stargazers: yes
+          # plugin_stargazers_days: 30
