@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch: null
+concurrency:  # Queue workflows rather than overlap them
+  group: metrics
 jobs:
   github-metrics:
     name: Generate GitHub Metrics for README
@@ -22,12 +24,32 @@ jobs:
           repositories_batch: 3
           repositories_affiliations: owner, collaborator, organization_member
           config_order: base.header, base.activity+community
-          #, isocalendar, habits, languages, notable, followup, reactions, stargazers
 
           base: header, activity
           base_indepth: yes
 
           filename: base.svg
+          config_output: svg
+
+      - name: Update isocalendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: StrikerRUS
+          commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
+          config_timezone: Europe/Moscow
+          plugins_errors_fatal: yes
+          template: classic
+          repositories: 1000
+          repositories_batch: 3
+          repositories_affiliations: owner, collaborator, organization_member
+          config_order: base.header, base.activity+community
+          # habits, languages, notable, followup, reactions, stargazers
+
+          base: ""
+
+          filename: isocalendar.svg
           config_output: svg
 
           # plugin_isocalendar: yes
