@@ -4,4 +4,4 @@
 
 [![Isocalendar](./isocalendar.svg)](#)
 
-[![Habits](./habits.svg](#)
+[![Habits](./habits.svg)](#)
