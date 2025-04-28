@@ -95,7 +95,6 @@ jobs:
           repositories: 1000
           repositories_batch: 3
           repositories_affiliations: owner, collaborator, organization_member
-          # notable, followup, reactions, stargazers
 
           base: ""
 
@@ -110,10 +109,31 @@ jobs:
           filename: languages.svg
           config_output: svg
 
-          # plugin_notable: yes
-          # plugin_notable_from: organization
-          # plugin_notable_repositories: no
-          # plugin_notable_types: commit, pull_request, issue
+      - name: Update notable
+        uses: lowlighter/metrics@latest
+        if: always()
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: StrikerRUS
+          commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
+          config_timezone: Europe/Moscow
+          plugins_errors_fatal: yes
+          template: classic
+          repositories: 1000
+          repositories_batch: 3
+          repositories_affiliations: owner, collaborator, organization_member
+          # followup, reactions, stargazers
+
+          base: ""
+
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: no
+          plugin_notable_types: commit, pull_request, issue
+
+          filename: notable.svg
+          config_output: svg
 
           # plugin_followup: yes
           # plugin_followup_sections: user
