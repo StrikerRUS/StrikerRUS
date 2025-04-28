@@ -22,7 +22,7 @@ jobs:
           plugins_errors_fatal: yes
           template: classic
           repositories: 1000
-          repositories_batch: 3
+          repositories_batch: 5
           repositories_affiliations: owner, collaborator, organization_member
           config_order: base.header, base.activity+community
 
