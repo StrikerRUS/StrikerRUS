@@ -5,3 +5,5 @@
 [![Isocalendar](./isocalendar.svg)](#)
 
 [![Habits](./habits.svg)](#)
+
+[![Languages](./languages.svg)](#)
