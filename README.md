@@ -11,3 +11,7 @@
 [![Notable](./notable.svg)](#)
 
 [![Followup](./followup.svg)](#)
+
+[![Reactions](./reactions.svg)](#)
+
+[![Stargazers](./stargazers.svg)](#)
