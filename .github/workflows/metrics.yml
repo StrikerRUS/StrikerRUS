@@ -31,8 +31,6 @@ jobs:
 
           filename: base.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
       - name: Update isocalendar
         uses: lowlighter/metrics@latest
@@ -56,8 +54,6 @@ jobs:
 
           filename: isocalendar.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
       - name: Update habits
         uses: lowlighter/metrics@latest
@@ -84,8 +80,6 @@ jobs:
 
           filename: habits.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
       - name: Update languages
         uses: lowlighter/metrics@latest
@@ -114,8 +108,6 @@ jobs:
 
           filename: languages.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
       - name: Update notable
         uses: lowlighter/metrics@latest
@@ -141,8 +133,6 @@ jobs:
 
           filename: notable.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
       - name: Update followup
         uses: lowlighter/metrics@latest
@@ -158,7 +148,6 @@ jobs:
           repositories: 1000
           repositories_batch: 3
           repositories_affiliations: owner, collaborator, organization_member
-          # reactions, stargazers
 
           base: ""
 
@@ -168,14 +157,52 @@ jobs:
 
           filename: followup.svg
           config_output: svg
-          output_action: commit
-          output_condition: always
 
-          # plugin_reactions: yes
-          # plugin_reactions_limit: 1000
-          # plugin_reactions_limit_issues: 1000
-          # plugin_reactions_display: absolute
-          # plugin_reactions_details: count
+      - name: Update reactions
+        uses: lowlighter/metrics@latest
+        if: always()
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # plugin_stargazers: yes
-          # plugin_stargazers_days: 30
+          user: StrikerRUS
+          commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
+          config_timezone: Europe/Moscow
+          plugins_errors_fatal: yes
+          template: classic
+          repositories: 1000
+          repositories_batch: 3
+          repositories_affiliations: owner, collaborator, organization_member
+
+          base: ""
+
+          plugin_reactions: yes
+          plugin_reactions_limit: 1000
+          plugin_reactions_limit_issues: 1000
+          plugin_reactions_display: absolute
+          plugin_reactions_details: count
+
+          filename: reactions.svg
+          config_output: svg
+
+      - name: Update stargazers
+        uses: lowlighter/metrics@latest
+        if: always()
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: StrikerRUS
+          commits_authoring: StrikerRUS, ${{ secrets.AUTHOR_EMAILS }}
+          config_timezone: Europe/Moscow
+          plugins_errors_fatal: yes
+          template: classic
+          repositories: 1000
+          repositories_batch: 3
+          repositories_affiliations: owner, collaborator, organization_member
+
+          base: ""
+
+          plugin_stargazers: yes
+          plugin_stargazers_days: 30
+
+          filename: stargazers.svg
+          config_output: svg
