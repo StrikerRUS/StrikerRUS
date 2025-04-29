@@ -31,6 +31,7 @@ jobs:
 
           filename: base.svg
           config_output: svg
+          config_display: large
 
       - name: Update isocalendar
         uses: lowlighter/metrics@latest
@@ -54,6 +55,7 @@ jobs:
 
           filename: isocalendar.svg
           config_output: svg
+          config_display: large
 
       - name: Update habits
         uses: lowlighter/metrics@latest
@@ -80,6 +82,7 @@ jobs:
 
           filename: habits.svg
           config_output: svg
+          config_display: large
 
       - name: Update languages
         uses: lowlighter/metrics@latest
@@ -102,12 +105,15 @@ jobs:
           plugin_languages_skipped: BayesWitnesses/m2cgen
           plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_categories: programming
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 0
+          # plugin_languages_categories: programming
+          plugin_languages_recent_load: 1000
           plugin_languages_recent_days: 365
 
           filename: languages.svg
           config_output: svg
+          config_display: large
 
       - name: Update notable
         uses: lowlighter/metrics@latest
@@ -133,6 +139,7 @@ jobs:
 
           filename: notable.svg
           config_output: svg
+          config_display: large
 
       - name: Update followup
         uses: lowlighter/metrics@latest
@@ -157,6 +164,7 @@ jobs:
 
           filename: followup.svg
           config_output: svg
+          config_display: large
 
       - name: Update reactions
         uses: lowlighter/metrics@latest
@@ -183,6 +191,7 @@ jobs:
 
           filename: reactions.svg
           config_output: svg
+          config_display: large
 
       - name: Update stargazers
         uses: lowlighter/metrics@latest
@@ -206,3 +215,4 @@ jobs:
 
           filename: stargazers.svg
           config_output: svg
+          config_display: large
