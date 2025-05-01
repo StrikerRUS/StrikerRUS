@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch: null
-concurrency:  # Queue workflows rather than overlap them
-  group: metrics
 jobs:
   github-metrics:
     name: Generate GitHub Metrics for README
