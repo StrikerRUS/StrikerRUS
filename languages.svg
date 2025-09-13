@@ -11,25 +11,25 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                         <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                     </svg>
-                    10 Languages
+                    11 Languages
                 </h2>
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 7.24mb of code in 8807 edited files across 2364 commits</small>
+                <small>estimation from 7.25mb of code in 8811 edited files across 2366 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="170.73877418842378" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="170.73877418842378" y="0" width="157.36308991412466" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="328.10186410254846" y="0" width="50.91563856122736" height="8" fill="#3A4E3A"/>
-                    <rect mask="url(#languages-bar)" x="379.0175026637758" y="0" width="39.185483867177346" height="8" fill="#198CE7"/>
-                    <rect mask="url(#languages-bar)" x="418.2029865309531" y="0" width="17.407242556115545" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="435.61022908706866" y="0" width="11.759774658902746" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="447.3700037459714" y="0" width="9.960740151314686" height="8" fill="#DA3434"/>
-                    <rect mask="url(#languages-bar)" x="457.3307438972861" y="0" width="2.6692561027138786" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="170.54751514667805" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="170.54751514667805" y="0" width="157.70209929084675" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="328.2496144375248" y="0" width="50.858603618301366" height="8" fill="#3A4E3A"/>
+                    <rect mask="url(#languages-bar)" x="379.10821805582617" y="0" width="39.1415888695097" height="8" fill="#198CE7"/>
+                    <rect mask="url(#languages-bar)" x="418.24980692533586" y="0" width="17.387743221260045" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="435.63755014659586" y="0" width="11.746601533799216" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="447.3841516803951" y="0" width="9.949582277975873" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="457.33373395837094" y="0" width="2.6662660416290103" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -42,7 +42,7 @@
                             </div>
                             <small>
                                 <div>38.3k lines</div>
-                                <div>37.12%</div>
+                                <div>37.08%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -54,7 +54,7 @@
                             </div>
                             <small>
                                 <div>10.9k lines</div>
-                                <div>11.07%</div>
+                                <div>11.06%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -78,7 +78,7 @@
                             </div>
                             <small>
                                 <div>2.55k lines</div>
-                                <div>2.17%</div>
+                                <div>2.16%</div>
                             </small>
                         </div>
                     </section>
@@ -91,8 +91,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>34.3k lines</div>
-                                <div>34.21%</div>
+                                <div>34.4k lines</div>
+                                <div>34.28%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -104,7 +104,7 @@
                             </div>
                             <small>
                                 <div>10.2k lines</div>
-                                <div>8.52%</div>
+                                <div>8.51%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -116,7 +116,7 @@
                             </div>
                             <small>
                                 <div>2.10k lines</div>
-                                <div>2.56%</div>
+                                <div>2.55%</div>
                             </small>
                         </div>
                         <div class="field language details">
