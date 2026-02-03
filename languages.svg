@@ -16,7 +16,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 7.53mb of code in 9434 edited files across 2433 commits</small>
+                <small>estimation from 3.77mb of code in 4749 edited files across 1250 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -41,7 +41,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>42k lines</div>
+                                <div>21k lines</div>
                                 <div>38.54%</div>
                             </small>
                         </div>
@@ -53,7 +53,7 @@
                                 Cuda
                             </div>
                             <small>
-                                <div>10.9k lines</div>
+                                <div>5.47k lines</div>
                                 <div>10.58%</div>
                             </small>
                         </div>
@@ -65,7 +65,7 @@
                                 Shell
                             </div>
                             <small>
-                                <div>4.32k lines</div>
+                                <div>2.16k lines</div>
                                 <div>4%</div>
                             </small>
                         </div>
@@ -77,7 +77,7 @@
                                 CMake
                             </div>
                             <small>
-                                <div>2.60k lines</div>
+                                <div>1.30k lines</div>
                                 <div>2.1%</div>
                             </small>
                         </div>
@@ -91,7 +91,7 @@
                                 Python
                             </div>
                             <small>
-                                <div>35.1k lines</div>
+                                <div>17.5k lines</div>
                                 <div>33.44%</div>
                             </small>
                         </div>
@@ -103,7 +103,7 @@
                                 R
                             </div>
                             <small>
-                                <div>10.3k lines</div>
+                                <div>5.17k lines</div>
                                 <div>8.31%</div>
                             </small>
                         </div>
@@ -115,7 +115,7 @@
                                 PowerShell
                             </div>
                             <small>
-                                <div>2.13k lines</div>
+                                <div>1.06k lines</div>
                                 <div>2.48%</div>
                             </small>
                         </div>
@@ -127,7 +127,7 @@
                                 SWIG
                             </div>
                             <small>
-                                <div>696 lines</div>
+                                <div>348 lines</div>
                                 <div>0.55%</div>
                             </small>
                         </div>
